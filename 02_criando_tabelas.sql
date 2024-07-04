@@ -32,3 +32,16 @@ create table `bd_caso_estudo_vendas`.`tb_cli`(
 create table `bd_caso_estudo_vendas`.`tb_prod_comp`(
 	`prod_cod` int not null,
     `compra_cod` int not null);
+    
+create table  `bd_caso_estudo_vendas`.`tb_prod`(
+	`prod_cod` int not null primary key,
+    `prod_forn_cod` int not null,
+    `prod_desc` varchar (60) null,
+    `prod_vlr` decimal null
+);
+
+create table `bd_caso_estudo_vendas`.`tb_cli_tel`(
+	`tel_cod` int not null primary key,
+    `tel_cli_cod` int not null,
+    `tel_num` varchar (13) not null
+);
