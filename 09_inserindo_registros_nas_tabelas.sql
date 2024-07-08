@@ -30,6 +30,23 @@ values
 (1,1),
 (2,1);
 
+select * from tb_prod_comp;
+/*
+desabilitando chaves quando for necessário
+set foreign_key_checks = 0;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
