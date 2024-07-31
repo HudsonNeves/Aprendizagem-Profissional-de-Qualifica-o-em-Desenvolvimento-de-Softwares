@@ -1,3 +1,6 @@
+/*Criando novo usuario no servidor*/
+create user 'lara.rodrigues'@'localhost'identified by'123456';
+
 /*Gerenciamento de permissões e usuários, concedendo permissão de inserção, 
 atualização e remoção de registros em uma tabela*/
 grant insert, update, delete
